@@ -23,11 +23,6 @@ const randomNumberGenerate = function () {
   const myRandomIndex = Math.floor(Math.random() * 91);
   const randomCell = document.querySelectorAll(".day")[myRandomIndex];
 
-  const alreadySelected = document.querySelector(".selected");
-  if (alreadySelected !== null) {
-    alreadySelected.classList.remove("selected");
-  }
-
   randomCell.classList.add("selected");
 
   const specialNumber = randomCell.querySelector("h3").innerText;
