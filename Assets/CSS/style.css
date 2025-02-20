@@ -1,0 +1,61 @@
+
+h1{
+    text-align: center;
+    margin: 0;
+    background-color: orange;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+.day.selected {
+    border-color: #7a408a;
+    background-color: orange;
+  }
+.day {
+    display: inline-block;
+    width: 14%;
+    height: 106px;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+   background-color: #00000026;
+  }
+  
+ 
+  .day h3 {
+    text-align: center;
+    font-size: 26px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  section h3{
+    display: inline-block;
+  }
+
+#randomButton{
+    font-size: 1.17em;
+    background-color: orange;
+    color: #0b0a0aeb;
+}
+.h3form{
+padding-left: 20px;
+color: white;
+}
+form{
+    background-color: green;
+    width: 50%;
+    border-radius: 2em;
+    border: solid 3px;
+}
+
+h2{
+    margin-top: 40px;
+}
